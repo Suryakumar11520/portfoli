@@ -1,0 +1,89 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.hero{
+    position: relative;
+    width: 100%;
+    height: 2000px;
+    background: #eee;
+    font-size: medium;
+}
+nav img{
+    width: 60%;
+}
+nav{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 50px;
+    font-weight: bolder;
+}
+nav ul li a:hover{
+    color: burlywood;
+}
+.main{
+    margin-top: 13%;
+    margin-left: 8%;
+}
+.main h1{
+    font-size: 100px;
+    font-weight: bolder;
+}
+span{
+    color: rgb(7, 248, 7);
+}
+span:hover{
+    color: rgb(245, 209, 9);
+}
+.main p{
+    font-size: 50px;
+    color: gray;
+    font-weight: 700;
+    line-height: 70px;
+}
+.main a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: xx-large;
+    margin-top: 5px;
+    font-weight: bold;
+}
+.main a:hover{
+    color: burlywood;
+}
+.images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+.images img{
+    height: 60%;
+    position: absolute;
+    bottom: 10%;
+    transition: bottom 1s letf 1s;
+}
+.images:hover .shape{
+    width: 100%;
+}
+.images:hover .Boy{ 
+    left: 45%;
+}
